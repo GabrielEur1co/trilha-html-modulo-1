@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +7,178 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+   <header>
+    <h1 id="home">Módulo 1 - Primeiros Passos com <abbr title="HyperText Markup Language">HTML</abbr></h1>
     <hr />
+   </header>
 
+   <main>
+   
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    
+    
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historiadoscomputadores">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estruturabasica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#diferencaentrelistas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#linksdereferencias">Links de referências</a></li>
+        
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historiadoscomputadores"><i>História dos computadores</i></h2>
+    <a href="#home">  < voltar </a>
+    <p>
+      A história dos computadores é uma jornada fascinante que remonta a milênios, desde os primórdios da contagem e cálculos simples até a era moderna dos supercomputadores e inteligência artificial. No século XIX, máquinas mecânicas como a Máquina Analítica de Charles Babbage pavimentaram o caminho para a computação programável. No século XX, o advento dos computadores eletrônicos durante a Segunda Guerra Mundial acelerou o desenvolvimento, culminando nos primeiros computadores pessoais nas décadas de 1970 e 1980. Hoje, vivemos na era da computação em nuvem e da conectividade ubíqua, onde os computadores não apenas processam dados, mas também moldam profundamente todos os aspectos da vida moderna, da comunicação à ciência, da economia à cultura.
+    </p>
+    
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <a href="#home">  < voltar </a>
+    <p>
+      Na computação e redes, um "cliente" é um dispositivo, programa ou sistema que acessa serviços, recursos ou informações de outro sistema chamado de servidor. Por exemplo, em redes de computadores, um navegador da web atua como cliente ao solicitar páginas da web a servidores remotos.</p>
+   
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <a href="#home">  < voltar </a>
+    <p>
+      Em redes de computadores, um "servidor" (ou "server" em inglês) é um sistema de computador ou software que fornece serviços, recursos ou funcionalidades para outros dispositivos na rede. Os servidores desempenham um papel crucial na infraestrutura de rede ao possibilitar comunicação, armazenamento de dados, acesso a aplicativos e outros serviços.
+    </p>
+    <ol>
+      <li><Strong>Servidor de Arquivos: </Strong>Armazena e gerencia arquivos que podem ser acessados por clientes na rede.
+      </li>
+      <br>
+      <li><Strong>Servidor Web:</Strong>Hospeda sites e aplicações web, respondendo a solicitações de navegadores da web e entregando conteúdo aos usuários.
+      </li>
+      <br>
+      <li><Strong>Servidor de E-mail:</Strong>Gerencia o envio, recebimento e armazenamento de e-mails para os usuários da rede.
+      </li>
+      <br>
+      <li><Strong>Servidor de Banco de Dados:</Strong>
+         Armazena e gerencia bancos de dados, permitindo que aplicativos e usuários acessem e manipulem informações de forma segura e eficiente.
+      </li>
+      <br>
+      <li><Strong>Servidor de Aplicação:</Strong>
+         Executa e gerencia aplicativos e serviços específicos, proporcionando funcionalidades como processamento de transações, interação com bancos de dados, etc.
+      </li>
+      <br>
+      <li><Strong>Servidor DNS:</Strong>
+         Fornece serviços de resolução de nomes de domínio, traduzindo nomes de domínio legíveis por humanos em endereços IP entendidos pelos computadores.
+      </li>
+      <br>
+      <li><Strong>Servidor DHCP:</Strong>
+         Distribui endereços IP dinâmicos para dispositivos na rede, facilitando a configuração automática de rede.
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      </li>
+      <br>
+      <li><Strong>Servidor Proxy:</Strong>
+         Atua como intermediário entre clientes e outros servidores, fornecendo cache, controle de acesso ou anonimização de tráfego.
+      </li>
+    </ol>
+    
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estruturabasica">Como é uma estrutura básica de um <i>HTML?</i></h2>
+    <a href="#home">  < voltar </a>
+      <p>
+         Uma estrutura básica de um documento HTML é composta pelos principais elementos e seções necessários para criar uma página web funcional e bem organizada. Aqui está um exemplo de uma estrutura básica de HTML:
+      </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <ul>
+         <li><strong>DOCTYPE html: </strong>Declara que o documento está em HTML5.
+         </li>
+         <br>
+         <li><strong>html lang="pt-br": </strong>Define o elemento raiz do documento HTML e o idioma principal como português do Brasil.
+         </li>
+         <br>
+         <li><strong>head: </strong>Contém metadados e informações sobre o documento, como:
+            
+            <ul>
+               <li><strong>meta charset="UTF-8": </strong>
+                  Define a codificação de caracteres como UTF-8.
+               </li>
+               <br>
+               <li><strong>meta name="viewport" content="width=device-width, initial-scale=1.0": </strong>Configura a viewport para tornar a página responsiva.
+               </li>
+               <br>
+               <li><strong>title: </strong>
+                  Define o título da página que aparece na aba do navegador.
+               </li>
+               <br>                            
+            </ul>
+         </li>
+         <br>
+         <li><strong>body: </strong>Contém todo o conteúdo visível da página, dividido em seções principais:
+            <ul>
+               <li><strong>header: </strong> Contém o cabeçalho da página, incluindo o título principal (h1) e uma barra de navegação (nav com uma lista de links).</li>
+               <br>
+               <li><strong>main: </strong>
+                  Contém o conteúdo principal da página. Aqui, usamos section para dividir o conteúdo em partes distintas:
+                  <ul>
+                     <li><strong>section id="home": </strong>
+                        Uma seção com um subtítulo (h2) e um parágrafo (p).
+                     </li>
+                     <br>
+                     <li><strong>section id="sobre": </strong>
+                        Outra seção com um subtítulo (h2) e um parágrafo (p).
+                     </li>
+                  </ul>
+               </li>
+               <br>
+            <li><strong>footer:  </strong>
+                  Contém o rodapé da página, geralmente com informações de direitos autorais ou contatos.
+               </li>
+               
+            </ul>
+         
+      </ul>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="diferencaentrelistas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <a href="#home">  < voltar </a>
+      <p>
+         As listas ordenadas e não ordenadas são dois tipos de listas utilizadas em HTML para apresentar conjuntos de itens. A diferença principal entre elas está na forma como os itens são apresentados.
+      </p>
+
+      <ol>
+         <li><strong>Lista Ordenada (ol) </strong>
+            <ul>
+               <li><strong>Definição: </strong>
+                  Uma lista ordenada apresenta os itens em uma sequência específica, numerada.
+               </li>
+               <br>
+               <li><strong>Uso:</strong>
+                  É usada quando a ordem dos itens é importante, como em uma lista de instruções, passos, rankings, etc.
+               </li>
+               
+            </ul>
+            
+         </li>
+         <br>
+         <li><strong>Lista Não Ordenada (ul)</strong>
+            <ul>
+               <li><strong>Definição: </strong>
+                  ma lista não ordenada apresenta os itens sem uma sequência específica, com marcadores (bullets).
+               </li>
+               <br>
+               <li><strong>Uso: </strong>
+                  É usada quando a ordem dos itens não é importante, como em listas de características, opções, etc.
+               </li>
+            </ul>
+         </li>
+            
+         
+      </ol>
+   </main>
+
+        
+   <footer>
+    <h2 id="linksdereferencias">Links de referências</h2>
+       <hr>
+    <a href="#home">  < voltar </a>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="http://dio.me" target="_blank">DIO.me</a></li>
+        <li><a href="http://w3c.org" target="_blank">W3C</a></li>
     </ul>
-
+    
+   </footer>
 </body>
 </html>
